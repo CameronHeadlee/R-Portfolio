@@ -1,0 +1,13 @@
+.contact {
+    background-color: #D7C9AA;
+    color: #FFFFFF;
+    min-height: 100vh;
+}
+
+.contact h1 {
+    padding-top: 80px;
+}
+
+.contact ul {
+    padding-top: 40px;
+}

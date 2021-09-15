@@ -1,43 +1,42 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function Navigation({currentPage, handlePageChange}) {
     return (
-        <ul className='nav navigation'>
+
+        <ul className='nav navigation justify-content-end'>
             <li className='nav-item'>
-                <a
-                    href='#about'
-                    onClick={() => handlePageChange('About')}
+                <Link to="/About"
+                   
                     className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                 >
                     About
-                </a>
+                </Link>
             </li>
             <li className='nav-item'>
-                <a
-                    href='#portfolio'
-                    onClick={() => handlePageChange('Portfolio')}
+                <Link to="/Portfolio"
+                    
                     className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
                 >
                     Portfolio
-                </a>
+                </Link>
             </li>
             <li className='nav-item'>
-                <a
-                    href='#contact'
-                    onClick={() => handlePageChange('Contact')}
+                <Link to="/Contact"
+                    
                     className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                 > 
                     Contact
-                </a>
+                </Link>
             </li>
             <li className='nav-item'>
-                <a
-                    href='#resume'
-                    onClick={() => handlePageChange('Resume')}
+                <Link to="/Resume"
+                    
                     className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                 >
                     Resume
-                </a>
+                </Link>
             </li>
         </ul>
     );

@@ -1,0 +1,18 @@
+.resume {
+    background-color: #7B2D26;
+    color: #FFFFFF;
+    min-height: 100vh;
+}
+
+.resume h2 {
+    padding-top: 90px;
+    font-size: 40px;
+}
+
+.resume p {
+    font-size: 20px;
+}
+
+.resume ul {
+    font-size: 20px;
+}

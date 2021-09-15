@@ -1,0 +1,13 @@
+.about {
+    background-color: #19535f;
+    color: #FFFFFF;
+    min-height: 100vh;
+}
+
+.about p{
+    font-size: 20px;
+}
+
+.about h1{
+    padding-top: 80px;
+}
