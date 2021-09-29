@@ -1,9 +1,13 @@
 import React from 'react';
 
-function Footer() {
+
+function Footer(props) {
+
     return (
-        null
-    );
-}
+        <footer>
+            {props.children}
+        </footer> 
+    )
+};
 
 export default Footer;

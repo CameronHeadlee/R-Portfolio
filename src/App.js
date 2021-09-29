@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-// import PortfolioContainer from './components/PortfolioContainer';
 import Project from './components/Project';
 import Navigation from './components/Navigation';
+import  BottomNav  from './components/BottomNav';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Portfolio from './components/pages/Portfolio';
@@ -15,7 +15,6 @@ function App() {
   return (
       
         <Router>
-        <div>
         <Header>
           <Navigation/>
         </Header>
@@ -36,8 +35,9 @@ function App() {
         <Route exact path='/Resume'>
         <Resume/>
         </Route>
-        <Footer />
-        </div>
+        <Footer>
+          <BottomNav/>
+        </Footer>
         </Router>
       
       

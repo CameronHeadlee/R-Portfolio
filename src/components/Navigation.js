@@ -1,44 +1,48 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 
-function Navigation({currentPage, handlePageChange}) {
+function Navigation() {
     return (
-
-        <ul className='nav navigation justify-content-end'>
-            <li className='nav-item'>
-                <Link to="/About"
+        <>
+    <Navbar sticky='top' collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar.Brand className="">Cameron Headlee</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse className='justify-content-end' id="responsive-navbar-nav">
+        <Nav.Link>
+            <Link to="/About"
                    
-                    className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-                >
-                    About
-                </Link>
-            </li>
-            <li className='nav-item'>
-                <Link to="/Portfolio"
+               > About
+
+            </Link>  
+        </Nav.Link>
+        <Nav.Link>
+            <Link to="/Portfolio"
+                     
+                > My Work
+
+            </Link>
+        </Nav.Link>
+        <Nav.Link>
+            <Link to="/Contact"
                     
-                    className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-                >
-                    Portfolio
-                </Link>
-            </li>
-            <li className='nav-item'>
-                <Link to="/Contact"
                     
-                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-                > 
-                    Contact
-                </Link>
-            </li>
-            <li className='nav-item'>
-                <Link to="/Resume"
-                    
-                    className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-                >
-                    Resume
-                </Link>
-            </li>
-        </ul>
+                > Contact
+
+            </Link>
+        </Nav.Link>
+        <Nav.Link>
+            <Link to="/Resume"
+                     
+                > Resume
+
+            </Link>
+        </Nav.Link>
+        </Navbar.Collapse>
+    </Navbar>
+      </> 
     );
 }
 
