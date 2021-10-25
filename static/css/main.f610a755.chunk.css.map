@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/styles/Portfolio.css"],"names":[],"mappings":"AAAA,WACI,wBAAyB,CACzB,gBACJ,CAEA,cACI,gBACJ","file":"main.f610a755.chunk.css","sourcesContent":[".portfolio {\r\n    background-color: #0B7A75;\r\n    min-height: 100vh;\r\n}\r\n\r\n.portfolio h1{\r\n    padding-top: 80px;\r\n}"]}
