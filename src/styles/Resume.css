@@ -1,6 +1,4 @@
 .resume {
-    background-color: #7B2D26;
-    color: #FFFFFF;
     min-height: 100vh;
 }
 
@@ -11,6 +9,7 @@
 
 .resume p {
     font-size: 20px;
+    border: 9px dashed #9a1aef;
 }
 
 .resume ul {

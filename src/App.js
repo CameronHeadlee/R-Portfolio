@@ -18,14 +18,11 @@ function App() {
         <Header>
           <Navigation/>
         </Header>
-        <Route exact path="/About">
+        <Route exact path="/R-Portfolio">
         <About />
         </Route>
         <Route exact path='/Portfolio'>
         <Portfolio>
-          <Project />
-          <Project />
-          <Project />
           <Project />
         </Portfolio>
         </Route>

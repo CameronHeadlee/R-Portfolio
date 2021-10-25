@@ -1,19 +1,22 @@
 import React from 'react';
-import Accordion from 'react-bootstrap/Accordion'
+import Accordion from 'react-bootstrap/Accordion';
+import '../../styles/About.css';
 
  const styles = {
     aboutStyles: {
-        backgroundColor: '#19535f',
+        backgroundColor: '#5e5d5c',
         color: '#0b0b0b',
         minHeight: '100vh',
     },
     textStyle: {
         fontSize: '25px',
+        color: '#f1faee',
+        backgroundColor: '#9a1aef'
     },
     positionStyles: {
         paddingTop: 55,
         paddingLeft: 20,
-        paddingRight: 20
+        paddingRight: 20,
     }
  };
 
@@ -34,7 +37,7 @@ function About() {
     
     <Accordion className='mt-5' style={styles.positionStyles}>
         <Accordion.Item eventKey="0">
-            <Accordion.Header><h2>Favorite Quote</h2></Accordion.Header>
+            <Accordion.Header><h1>Favorite Quote</h1></Accordion.Header>
                 <Accordion.Body style={styles.textStyle}>
             "No man ever steps in the same river twice, for it's not the same river and he's not the same man." 
             - Heraclitus
