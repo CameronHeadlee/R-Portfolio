@@ -1,8 +1,25 @@
-.portfolio {
-    background-color: #0B7A75;
-    min-height: 100vh;
+.btn.btn-outline-three {
+    background-color: #f1faee;
+    color: #9a1aef;
+    font-weight: bold;
 }
 
-.portfolio h1{
-    padding-top: 80px;
+.btn.btn-outline-three:hover {
+    background-color: #9a1aef;
+    color: #f1faee;
 }
+
+.contact:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+.description {
+    text-align: center;
+    color: #f1faee;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 20px 0px 20px;
+    padding: 0px 15px 10px 15px;
+}
+
