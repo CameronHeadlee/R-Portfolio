@@ -14,7 +14,9 @@
 .btn.btn-outline-two {
     background-color: #f1faee;
     color: #9a1aef;
+    font-size: 25px;
     font-weight: bold;
+    margin: 10px 50px 70px 70px;
 }
 
 .btn.btn-outline-two:hover {
