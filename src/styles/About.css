@@ -1,3 +1,18 @@
+.main {
+    background-color: #480872;
+    min-height: 100vh;
+}
+
+.accordion {
+    width: 100%;
+}
+
+.me {
+    font-size: 25px;
+    color: #f1faee;
+    background-color: #9a1aef;
+}
+
 .accordion button {
  background-color: #9a1aef;
 }
@@ -18,5 +33,40 @@
 }
 
 .accordion h1 {
-    color: #f1faee
+    color: #f1faee;
+}
+
+.second {
+    padding: 50px 0px 0px 0px;
+}
+
+.image {
+    min-width: 100px;
+    height: auto;
+    border-radius: 15%;
+    padding: 0px 5px 5px 5px;
+}
+
+.intro {
+    color: #f1faee;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+}
+
+.btn.btn-outline-one {
+    background-color: #f1faee;
+    color: #9a1aef;
+    font-weight: bold;
+}
+
+.btn.btn-outline-one:hover {
+    background-color: #9a1aef;
+    color: #f1faee;
+}
+
+
+.work:hover {
+    transform: rotate(360deg);
+    transition: 2s;
 }
