@@ -1,0 +1,59 @@
+.Project {
+    color: #9a1aef;
+    margin: 0% 0% 0% 55%;
+    font-size: 30px;
+}
+
+.Project:hover {
+    color: #343a40;
+}
+
+.schedule {
+    color: #9a1aef;
+    margin: 0% 0% 0% 15%;
+    font-size: 30px;
+}
+
+.schedule:hover {
+    color: #343a40;
+}
+
+.taker {
+    color: #9a1aef;
+    margin: 0% 0% 0% 50%;
+    font-size: 30px;
+}
+
+.taker:hover {
+    color:#343a40;
+}
+
+.final {
+    color: #9a1aef;
+    margin: 0% 0% 0% 68%;
+    font-size: 30px;
+}
+
+.final:hover {
+    color:#343a40;
+}
+
+.drop {
+    font-size: 25px;
+    color: #9a1aef;
+}
+
+.badge.bg-language {
+    background-color: #9a1aef;
+}
+
+.btn.btn-outline-view {
+    background-color: #9a1aef;
+    color: #f1faee;
+    margin: 0px 0px 0px 75px;
+}
+
+.btn.btn-outline-view:hover {
+    background-color: #343a40;
+    color: #9a1aef;
+}
