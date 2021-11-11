@@ -1,0 +1,28 @@
+.phone {
+    font-weight: bold;
+    font-size: 25px;
+    color: #f1faee;
+}
+
+.below {
+    color: #f1faee;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px 60px 0px 60px;
+}
+
+.btn.btn-outline-two {
+    background-color: #f1faee;
+    color: #9a1aef;
+    font-weight: bold;
+}
+
+.btn.btn-outline-two:hover {
+    background-color: #9a1aef;
+    color: #f1faee;
+}
+
+.two:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+}
