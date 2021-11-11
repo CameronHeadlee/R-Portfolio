@@ -59,6 +59,7 @@ h2 {
 .btn.btn-outline-download {
     background-color: #9a1aef;
     color: #f1faee;
+    font-size: 25px;
 }
 
 .btn.btn-outline-download:hover {
@@ -96,7 +97,9 @@ h2 {
 .btn.btn-outline-five {
     background-color: #f1faee;
     color: #9a1aef;
+    font-size: 25px;
     font-weight: bold;
+    margin: 20px 50px 60px 70px;
 }
 
 .btn.btn-outline-five:hover {
