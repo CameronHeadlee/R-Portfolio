@@ -46,7 +46,7 @@ function Resume() {
                       </Accordion.Item>
                     </Accordion>
                   </div>
-                    <div className='d-flex justify-content-end py-5 px-5'>
+                    <div className='d-flex justify-content-end'>
                       <Link to="/R-Portfolio">
                         <Button className='about' variant='outline-five'>
                           About
