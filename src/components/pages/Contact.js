@@ -57,7 +57,7 @@ const Contact = () =>  {
                         </Button>
                     </div>
                 </Form>
-                <div className='d-flex justify-content-end py-5 pe-5'>
+                <div className='d-flex justify-content-end'>
                     <Link to="/Resume">
                         <Button className="two" variant='outline-two'>
                             Resume
