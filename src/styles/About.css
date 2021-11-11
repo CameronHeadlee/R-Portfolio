@@ -57,7 +57,9 @@
 .btn.btn-outline-one {
     background-color: #f1faee;
     color: #9a1aef;
+    font-size: 25px;
     font-weight: bold;
+    margin: 70px 50px 70px 0px;
 }
 
 .btn.btn-outline-one:hover {
