@@ -38,9 +38,14 @@
     color:#343a40;
 }
 
-.drop {
-    font-size: 25px;
+.word {
     color: #9a1aef;
+    margin: 0% 0% 0% 13%;
+    font-size: 30px;
+}
+
+.word:hover {
+    color:#343a40;
 }
 
 .badge.bg-language {

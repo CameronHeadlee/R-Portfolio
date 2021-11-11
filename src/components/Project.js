@@ -128,11 +128,11 @@ function Project() {
                 </Card>
 
                 <Card className='mt-2 mx-3' style={{ width: '20rem'}}>
-                    <Card.Header as='h4'>iGEM 
+                    <Card.Header as='h4'>Password Generator 
                         <Link to={{pathname: 
                             "https://github.com/CameronHeadlee/Password-Generator"}}
                             target="_blank">
-                            <FontAwesomeIcon className='final' icon={['fab', 'github']} />
+                            <FontAwesomeIcon className='word' icon={['fab', 'github']} />
                         </Link>
                     </Card.Header>
                     <Card.Img variant="top" src ={pass} />
