@@ -4,6 +4,7 @@ import note from '../assets/images/note_home.png';
 import join from '../assets/images/join_me.png';
 import workday from '../assets/images/workschedule_1.png';
 import crop from '../assets/images/crop.png';
+import pass from '../assets/images/passgen.png';
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 import Badge from 'react-bootstrap/Badge'
@@ -28,12 +29,14 @@ function Project() {
                         <Card.Text>
                             This application allows community event coordinators to promote events. It is a quick and easy way to reach out to others with details of upcoming events.
                         </Card.Text>
-                            <Badge bg="language ms-1">Node.js</Badge>
-                            <Badge bg="language ms-1">Express.js</Badge>
-                            <Badge bg="language ms-1">Handlebars</Badge>
-                            <Badge bg="language ms-1">Bootstrap 5</Badge>
-                            <Badge bg="language ms-1">Sequelize</Badge>
-                            <Badge bg="language ms-1">Mysql</Badge>
+                            <h5>
+                                <Badge bg="language ms-1">Node.js</Badge>
+                                <Badge bg="language ms-1">Express.js</Badge>
+                                <Badge bg="language ms-1">Handlebars</Badge>
+                                <Badge bg="language ms-1">Bootstrap 5</Badge>
+                                <Badge bg="language ms-1">Sequelize</Badge>
+                                <Badge bg="language ms-1">Mysql</Badge>
+                            </h5>
                     </Card.Body>
                     <Card.Footer>
                         <Button variant="outline-view" href="https://joinme-events.herokuapp.com/" target="_blank" className="card-link">View App!
@@ -55,11 +58,13 @@ function Project() {
                             <Card.Text>
                                 A simple way to create notes for any event, project, or chore. This application allows you to create, view, and delete the notes. 
                             </Card.Text>
+                            <h5>
                                 <Badge bg="language ms-1">HTML5</Badge>
                                 <Badge bg="language ms-1">Bootstrap 4</Badge>
                                 <Badge bg="language ms-1">Node.js</Badge>
                                 <Badge bg="language ms-1">Express.js</Badge>
-                                <Badge bg="language ms-1">uuidv1</Badge>   
+                                <Badge bg="language ms-1">uuidv1</Badge>
+                            </h5>   
                     </Card.Body>
                     <Card.Footer>
                         <Button variant="outline-view" href="https://note-appc.herokuapp.com/" target="_blank" className="card-link">View App!
@@ -81,10 +86,12 @@ function Project() {
                             <Card.Text>
                             Schedule your workday easily with this workday scheduler. You can add and save any activities you would like from the hours of 9:00 A.M. to 5:00 P.M.
                             </Card.Text>
+                            <h5>
                                 <Badge bg="language ms-1">HTML5</Badge>
                                 <Badge bg="language ms-1">CSS3</Badge>
                                 <Badge bg="language ms-1">moment.js</Badge>
                                 <Badge bg="language ms-1">JavaScript</Badge>
+                            </h5>
                     </Card.Body>
                     <Card.Footer>
                         <Button variant="outline-view" href=" https://cameronheadlee.github.io/Work-Schedule-Planner/" target="_blank" className="card-link">View App!
@@ -106,13 +113,41 @@ function Project() {
                             <Card.Text>
                             A team of students working on a Genetic Engineering project at Miami University was struggling to reach deadlines. I joined the team to help push them through to the end. This is a Website much like Wikipedia but for photosynthesis. They presented the Website in a competition against other University teams. 
                             </Card.Text>
+                            <h5>
                                 <Badge bg="language ms-1">HTML5</Badge>
                                 <Badge bg="language ms-1">CSS3</Badge>
                                 <Badge bg="language ms-1">Python</Badge>
                                 <Badge bg="language ms-1">JavaScript</Badge>
+                            </h5>
                     </Card.Body>
                     <Card.Footer>
                         <Button variant="outline-view" href="https://2021.igem.org/Team:MiamiU_OH" target="_blank" className="card-link">View App!
+                            <FontAwesomeIcon icon="eye" fixedWidth />
+                        </Button>
+                    </Card.Footer>
+                </Card>
+
+                <Card className='mt-2 mx-3' style={{ width: '20rem'}}>
+                    <Card.Header as='h4'>iGEM 
+                        <Link to={{pathname: 
+                            "https://github.com/CameronHeadlee/Password-Generator"}}
+                            target="_blank">
+                            <FontAwesomeIcon className='final' icon={['fab', 'github']} />
+                        </Link>
+                    </Card.Header>
+                    <Card.Img variant="top" src ={pass} />
+                    <Card.Body>
+                            <Card.Text>
+                            Password Generator helps you generate random, secure passwords. Once the app is open, click on the generate password button. After it will prompt you to select options. Once you pick your options, you will have a secure password generated for you.    
+                            </Card.Text>
+                            <h5>
+                                <Badge bg="language ms-1">HTML5</Badge>
+                                <Badge bg="language ms-1">CSS3</Badge>
+                                <Badge bg="language ms-1">JavaScript</Badge>
+                            </h5>
+                    </Card.Body>
+                    <Card.Footer>
+                        <Button variant="outline-view" href="https://cameronheadlee.github.io/Password-Generator/" target="_blank" className="card-link">View App!
                             <FontAwesomeIcon icon="eye" fixedWidth />
                         </Button>
                     </Card.Footer>
