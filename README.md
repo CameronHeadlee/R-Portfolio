@@ -34,10 +34,10 @@ My portfolio was built using the following:
 - CSS3
 
 ## Contact
-- If you have any questions or suggestions on improvement email me:  
+If you have any questions or suggestions on improvement email me:  
 - [Email](mailto:camhcodes11@gmail.com)      
 - [LinkedIn](https://www.linkedin.com/in/cameron-headlee)    
 - [Resume](/src/assets/Resume.PDF)     
-- Take a look at my other projects!    
+Take a look at my other projects!    
 - [GitHub](https://github.com/CameronHeadlee?tab=repositories)
 
