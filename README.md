@@ -15,8 +15,8 @@ Below you will find Links to my deployed portfolio and the GitHub repository.
 
 ## Screenshots
 Here are some screenshots of every page in my portfolio.  
-- [Photo of the About page.]  
-- [About page]()
+- Photo of the About page.    
+- [About page](/src/assets/images/portfolio_1.png)
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
