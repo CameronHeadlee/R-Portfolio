@@ -1,20 +1,22 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my portfolio website. It was created using React.js and React-Bootstrap. You will find several pages on this website from About, My work, Contact, and Resume. Throughout the website you will see accordions and icons. Every accordion contains a section of writing and every icon is a clickable link. There are two ways to navigate from page to page, you have the option to use the top navigation bar to jump to wherever you would like in the site or use a button on the bottom of every page that will send you to the next page in order. Also, there is a form on the Contact page that allows you to send me an email through the website. Feel free to contact me at any point with suggestions on improvement or employment opportunity. 
 
-## Available Scripts
+## Table of Contents
+- [Links](#links)
+- [Screen Shots](#screen-shots)
+- [Credits](#credits)
+- [Questions](#questions)
 
-In the project directory, you can run:
+## Links
+Below you will find Links to my deployed portfolio and the GitHub repository.  
+- [Deployment](https://cameronheadlee.github.io/R-Portfolio)  
+- [GitHub](https://github.com/CameronHeadlee/R-Portfolio)
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
+## Screenshots
+Here are some screenshots of every page in my portfolio.  
+- [Photo of the About page.]  
+- [About page]()
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
