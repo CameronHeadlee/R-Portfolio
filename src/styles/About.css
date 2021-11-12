@@ -43,8 +43,8 @@
 .image {
     min-width: 100px;
     height: auto;
-    border-radius: 15%;
-    padding: 0px 5px 5px 19px;
+    border-radius: 50%;
+    margin: 0px 5px 5px 19px;
 }
 
 .intro {
