@@ -24,18 +24,21 @@ function Resume() {
                 </Button>
               </a>
             </div>
-              <div className='d-flex justify-content-center'>
-                <h2>Transferable Skills</h2>
-              </div>
-                <div className='d-flex justify-content-center'>
+              <div className='d-flex justify-content-center flex-wrap'>
                   <ul className='list'>
+                  <h2 className='text-center me-4'>Technical Skills:</h2>
+                    <li className='text-center me-4'>HTML/CSS/JavaScript</li>
+                    <li className='text-center me-4'>Mysql/Sequelize/MongoDB/Mongoose</li>
+                    <li className='text-center me-4'>jQuery/React.js/Express.js/Bootstrap</li>
+                    <li className='text-center me-4'>Node.js/Handlebars/Git/Heroku/JWT Auth</li>
+                  <h2 className='text-center me-4 pt-3'>Transferable Skills:</h2>
                     <li className='text-center me-4'>Communication</li>
                     <li className='text-center me-4'>Collaboration</li>
                     <li className='text-center me-4'>Passionate</li>
                     <li className='text-center me-4'>Organized</li>
                     <li className='text-center me-4'>Attitude</li>
                   </ul>
-                </div>
+              </div>
                   <div className='d-flex justify-content-center py-5 px-5'>
                     <Accordion>
                       <Accordion.Item eventKey="0"> 
