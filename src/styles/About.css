@@ -51,7 +51,6 @@
     color: #f1faee;
     font-size: 25px;
     font-weight: bold;
-    padding: 0px 20px 0px 20px;
 }
 
 .btn.btn-outline-one {
@@ -59,16 +58,12 @@
     color: #9a1aef;
     font-size: 25px;
     font-weight: bold;
-    margin: 70px 50px 70px 0px;
+    margin: 75px 0px 75px 0px;
 }
 
 .btn.btn-outline-one:hover {
     background-color: #9a1aef;
     color: #f1faee;
-}
-
-
-.work:hover {
     transform: rotate(360deg);
     transition: 2s;
 }
