@@ -1,6 +1,5 @@
 .Project {
-    color: #9a1aef;
-    margin: 0% 0% 0% 55%;
+    color: #9a1aef; 
     font-size: 30px;
 }
 
@@ -10,7 +9,6 @@
 
 .schedule {
     color: #9a1aef;
-    margin: 0% 0% 0% 15%;
     font-size: 30px;
 }
 
@@ -20,7 +18,6 @@
 
 .taker {
     color: #9a1aef;
-    margin: 0% 0% 0% 50%;
     font-size: 30px;
 }
 
@@ -30,7 +27,6 @@
 
 .final {
     color: #9a1aef;
-    margin: 0% 0% 0% 68%;
     font-size: 30px;
 }
 
@@ -40,7 +36,6 @@
 
 .word {
     color: #9a1aef;
-    margin: 0% 0% 0% 13%;
     font-size: 30px;
 }
 

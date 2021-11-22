@@ -21,7 +21,7 @@ function Project() {
                         <Link to={{pathname: 
                             "https://github.com/CameronHeadlee/Event-Management-App"}}
                             target="_blank">
-                            <FontAwesomeIcon className='Project' icon={['fab', 'github']} />
+                            <FontAwesomeIcon className='Project float-end' icon={['fab', 'github']} />
                         </Link>
                     </Card.Header>
                     <Card.Img variant="top" src ={join} alt='JoinMe application homepage' />
@@ -50,7 +50,7 @@ function Project() {
                         <Link to={{pathname: 
                             "https://github.com/CameronHeadlee/Note-App"}}
                              target="_blank">
-                            <FontAwesomeIcon className='taker' icon={['fab', 'github']}  />
+                            <FontAwesomeIcon className='taker float-end' icon={['fab', 'github']}  />
                         </Link>
                     </Card.Header>
                     <Card.Img variant="top" src ={note} alt='Homepage of note taking application' />
@@ -78,7 +78,7 @@ function Project() {
                         <Link to={{pathname: 
                             "https://github.com/CameronHeadlee/Work-Schedule-Planner"}}
                             target="_blank">
-                            <FontAwesomeIcon className='schedule' icon={['fab', 'github']} />
+                            <FontAwesomeIcon className='schedule float-end' icon={['fab', 'github']} />
                         </Link>
                     </Card.Header>
                     <Card.Img variant="top" src ={workday} />
@@ -105,7 +105,7 @@ function Project() {
                         <Link to={{pathname: 
                             "https://github.com/settings/organizations"}}
                             target="_blank">
-                            <FontAwesomeIcon className='final' icon={['fab', 'github']} />
+                            <FontAwesomeIcon className='final float-end' icon={['fab', 'github']} />
                         </Link>
                     </Card.Header>
                     <Card.Img variant="top" src ={crop} />
@@ -132,7 +132,7 @@ function Project() {
                         <Link to={{pathname: 
                             "https://github.com/CameronHeadlee/Password-Generator"}}
                             target="_blank">
-                            <FontAwesomeIcon className='word' icon={['fab', 'github']} />
+                            <FontAwesomeIcon className='word float-end' icon={['fab', 'github']} />
                         </Link>
                     </Card.Header>
                     <Card.Img variant="top" src ={pass} />
