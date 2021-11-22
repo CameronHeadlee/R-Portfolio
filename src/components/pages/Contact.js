@@ -39,9 +39,13 @@ const Contact = () =>  {
             <div className='row'>
                 <div className='col d-flex justify-content-center'>
                 <h1>Phone:</h1>
-                <h1 className='ps-1'>(614)-517-7587</h1>
                 </div>
             </div>
+            <div className='row'>
+                <div className='col d-flex justify-content-center'>
+                <h1>(614)-517-7587</h1>
+                    </div>
+                </div>
             
                 <Form className='pt-3' ref={form} onSubmit={sendEmail}>
                 <div className='row'>
