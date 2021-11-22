@@ -50,7 +50,9 @@
 .btn.btn-outline-view {
     background-color: #9a1aef;
     color: #f1faee;
-    margin: 0px 0px 0px 75px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px 0px 50px;
 }
 
 .btn.btn-outline-view:hover {
