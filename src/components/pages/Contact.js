@@ -25,47 +25,63 @@ const Contact = () =>  {
     return (
     <>
         <div className='main'>
-            <div className='d-flex justify-content-center pt-2'>
+            <div className='container'>
+            <div className='row'>
+                <div className='col d-flex justify-content-center'>
                 <h1>Contact</h1>
+                </div>
             </div>
-            <div className='d-flex justify-content-center'>
+            <div className='row'>
+                <div className='col d-flex justify-content-center'>
                 <p className='below'>Below you will find the best phone number to reach me at as well as a simple contact form to send me an email. Use either to contact me at any point. If you would like to email me, simply fill out the form with the stated information and I will respond as soon as possible!</p>
+                </div>
             </div>
-            <div className='d-flex justify-content-center pt-1'>
-                <h1>Phone</h1>
+            <div className='row'>
+                <div className='col d-flex justify-content-center'>
+                <h1>Phone:</h1>
+                <h1 className='ps-1'>(614)-517-7587</h1>
+                </div>
             </div>
-            <div className='d-flex justify-content-center'>
-                <p className='phone'>(614)-517-7587</p>
-            </div>
+            
                 <Form className='pt-3' ref={form} onSubmit={sendEmail}>
-                    <div className='d-flex justify-content-center'>
-                        <Form.Group className="mb-1 w-25" controlId="exampleForm.ControlInput1">
-                            <Form.Label className='phone'>Email</Form.Label>
+                <div className='row'>
+                    <div className='col d-flex justify-content-center'>
+                        <Form.Group controlId="exampleForm.ControlInput1">
+                            <Form.Label className='phone d-flex justify-content-center'>Email</Form.Label>
                                 <Form.Control type="email" name="user_email" />
                         </Form.Group>
-                    </div>
-                    <div className='d-flex justify-content-center'>
-                        <Form.Group className="mb-1 w-50" controlId="exampleForm.ControlTextarea1">
-                            <Form.Label className='phone'>Message</Form.Label>
+                        </div>
+                    </div>    
+                    <div className='row'>
+                    <div className='col'>
+                        <Form.Group controlId="exampleForm.ControlTextarea1">
+                            <Form.Label className='phone d-flex justify-content-center'>Message</Form.Label>
                                 <Form.Control as="textarea" name="message" rows={5}/>
                         </Form.Group>
+                        </div>
                     </div>
-                    <div className='d-flex justify-content-center pt-2'>
-                        <Button variant="outline-two" type="submit">
+                    <div className='row'>
+                    <div className='col d-flex justify-content-center'>
+                        <Button variant="outline-mail" type="submit">
                             Send
                             <FontAwesomeIcon icon="paper-plane" />
                         </Button>
+                        </div>
                     </div>
                 </Form>
-                <div className='d-flex justify-content-end'>
+              
+                <div className='row'>
+                    <div className='col d-flex justify-content-end'>
                     <Link to="/Resume">
-                        <Button className="two" variant='outline-two'>
+                        <Button variant='outline-two'>
                             Resume
                             <FontAwesomeIcon icon="long-arrow-alt-right" size="lg" fixedWidth />
                         </Button>
                     </Link>
                 </div>
+            </div>
         </div>
+    </div>
     </>
     );
 }
