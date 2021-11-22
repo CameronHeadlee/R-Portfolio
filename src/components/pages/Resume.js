@@ -34,7 +34,7 @@ function Resume() {
                 </div>
                 <div className='row d-flex justify-content-between'>
                   <div className='col-md-auto'>
-                  <h2 className='text-center'>Technical Skills:</h2>
+                  <h2 className='skill text-center pt-2'>Technical Skills:</h2>
                 <ListGroup variant="flush">
                   <ListGroup.Item className='text-center'>HTML\CSS\JavaScript</ListGroup.Item>
                   <ListGroup.Item className='text-center'>jQuery\React.js</ListGroup.Item>
@@ -46,7 +46,7 @@ function Resume() {
                 </ListGroup>
                 </div>
                 <div className='col-md-auto'>
-                <h2 className='text-center'>Transferable Skills:</h2>
+                <h2 className='skill text-center pt-2'>Transferable Skills:</h2>
                 <ListGroup variant="flush">
                   <ListGroup.Item className='text-center'>Communication\Collaboration</ListGroup.Item>
                   <ListGroup.Item className='text-center'>Motivated\Problem-Solver</ListGroup.Item>
