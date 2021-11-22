@@ -9,7 +9,7 @@ function Navigation() {
     return (
         <>
     <Navbar className='nav' sticky='top' collapseOnSelect expand="lg">
-        <Navbar.Brand className='ps-5'><h1 className='top'>Cameron Headlee</h1></Navbar.Brand>
+        <Navbar.Brand className='text-light fs-2 ps-2'>Cameron Headlee</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse className='justify-content-end' id="responsive-navbar-nav">
                     <Nav.Link>
