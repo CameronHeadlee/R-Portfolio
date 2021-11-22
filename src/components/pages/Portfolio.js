@@ -8,10 +8,18 @@ function Portfolio(props) {
     return (
       <>
         <div className='main'>
-          <h1 className='d-flex justify-content-center pt-2'>Portfolio</h1>
+          <div className='container'>
+            <div className='row'>
+              <div className='col d-flex justify-content-center'>
+              <h1>Portfolio</h1>
+              </div>
+              </div>
+            <div className='col d-flex justify-content-center'>
             <p className='description'>Below you will find a few projects I have created solo and with a team. Click on the <FontAwesomeIcon icon={['fab', 'github']} size='lg'/> next to the project name to view the GitHub repository and code. If you click on the <FontAwesomeIcon icon='eye' size='lg' /> and button, you will view the deployed application!</p>
+            </div>
               {props.children}
-                <div className='d-flex justify-content-end'>
+                <div className='row'>
+                  <div className='col d-flex justify-content-end'>
                   <Link to="/Contact">
                     <Button className="contact" variant='outline-three'>
                       Contact
@@ -19,6 +27,8 @@ function Portfolio(props) {
                     </Button>
                   </Link>
                 </div>
+              </div>
+            </div>
         </div>
       </>
     );
