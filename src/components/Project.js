@@ -40,7 +40,7 @@ function Project() {
                     </Card.Body>
                     <Card.Footer>
                         <Button variant="outline-view" href="https://joinme-events.herokuapp.com/" target="_blank" className="card-link">View App!
-                            <FontAwesomeIcon icon="eye" fixedWidth />
+                            <FontAwesomeIcon className='pt-1' icon="eye" size='lg' fixedWidth />
                         </Button>
                     </Card.Footer>
                 </Card>
@@ -68,7 +68,7 @@ function Project() {
                     </Card.Body>
                     <Card.Footer>
                         <Button variant="outline-view" href="https://note-appc.herokuapp.com/" target="_blank" className="card-link">View App!
-                            <FontAwesomeIcon icon="eye" fixedWidth />
+                            <FontAwesomeIcon className='pt-1' icon="eye" size='lg' fixedWidth />
                         </Button>
                     </Card.Footer>
                 </Card>
@@ -95,7 +95,7 @@ function Project() {
                     </Card.Body>
                     <Card.Footer>
                         <Button variant="outline-view" href=" https://cameronheadlee.github.io/Work-Schedule-Planner/" target="_blank" className="card-link">View App!
-                            <FontAwesomeIcon icon="eye" fixedWidth />
+                            <FontAwesomeIcon className='pt-1' icon="eye" size='lg' fixedWidth />
                         </Button>
                     </Card.Footer>
                 </Card>
@@ -122,7 +122,7 @@ function Project() {
                     </Card.Body>
                     <Card.Footer>
                         <Button variant="outline-view" href="https://2021.igem.org/Team:MiamiU_OH" target="_blank" className="card-link">View App!
-                            <FontAwesomeIcon icon="eye" fixedWidth />
+                            <FontAwesomeIcon className='pt-1' icon="eye" size='lg' fixedWidth />
                         </Button>
                     </Card.Footer>
                 </Card>
@@ -148,7 +148,7 @@ function Project() {
                     </Card.Body>
                     <Card.Footer>
                         <Button variant="outline-view" href="https://cameronheadlee.github.io/Password-Generator/" target="_blank" className="card-link">View App!
-                            <FontAwesomeIcon icon="eye" fixedWidth />
+                            <FontAwesomeIcon className='pt-1' icon="eye" size='lg' fixedWidth />
                         </Button>
                     </Card.Footer>
                 </Card>
