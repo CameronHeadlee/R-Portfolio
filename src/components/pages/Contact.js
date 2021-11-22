@@ -43,7 +43,7 @@ const Contact = () =>  {
             </div>
             <div className='row'>
                 <div className='col d-flex justify-content-center'>
-                <h1>(614)-517-7587</h1>
+                <p className='cell'>(614)-517-7587</p>
                     </div>
                 </div>
             
