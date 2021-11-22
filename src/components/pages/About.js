@@ -12,13 +12,16 @@ function About() {
     return (
     <>
         <div className='main'>
-            <div className='d-flex justify-content-start pt-3'>
+            <div className='container'>
+            <div className='row'>
+                <div className='col-md-auto pt-1'>
                 <Image className="image" src ={Img} alt='Head shot of me.'/>
-            </div>
-                <div className='d-flex justify-content-center'>
+                
                     <p className='intro'>Welcome to my portfolio! As you move through, you will notice icons, buttons, and accordions. The icons and buttons are in place to make it easier for you to navigate to different pages within the portfolio and my social media accounts. If you see an accordion anywhere throughout the website, you can click on it to view the writing related to the heading on the accordion. In the footer at the bottom of every page, you will notice there are three icons. One for my LinkedIn, GitHub, and Twitter account. Click those icons to be taken to any of the three pages. Also, you will notice near the bottom of every page there is a button to help you navigate to the next page without having to use the navigation bar at the top. You can use either the button or navigation bar to traverse through my portfolio. Thank you for stopping by! </p>
                 </div>
-                    <div className='d-flex justify-content-center pt-1 px-5'>
+                </div>
+                    <div className='row'>
+                        <div className='col'>
                         <Accordion>
                             <Accordion.Item eventKey="0"> 
                                 <Accordion.Header><h2>About me</h2></Accordion.Header>
@@ -27,8 +30,10 @@ function About() {
                                     </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
+                        </div>
                     </div>
-                    <div className='d-flex justify-content-center pt-2 px-5'>
+                    <div className='row'>
+                        <div className='col'>
                         <Accordion className='second'>
                             <Accordion.Item eventKey="1">
                                 <Accordion.Header><h2>Favorite Quote</h2></Accordion.Header>
@@ -38,15 +43,19 @@ function About() {
                                     </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
+                        </div>
                     </div>
-                    <div className='d-flex justify-content-end'>
+                    <div className='row'>
+                        <div className='col d-flex justify-content-end'>
                         <Link to="/Portfolio">
                             <Button className="work" variant='outline-one'>
                                 My Work
                                 <FontAwesomeIcon icon="long-arrow-alt-right" size="lg" fixedWidth />
                             </Button>
                         </Link>
+                        </div>
                     </div>
+                </div>
         </div>
     </>
     );
