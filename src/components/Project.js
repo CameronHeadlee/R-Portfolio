@@ -111,7 +111,7 @@ function Project() {
                     <Card.Img variant="top" src ={crop} />
                     <Card.Body>
                             <Card.Text>
-                            A team of students working on a Genetic Engineering project at Miami University was struggling to reach deadlines. I joined the team to help push them through to the end. This is a Website much like Wikipedia but for photosynthesis. They presented the Website in a competition against other University teams. 
+                            I volunteered to help a group of undergraduate students from Miami University work on a project for the 2021 iGEM competition. This website details how the team aims to genetically redesign RuBP regeneration within the Calvin cycle. Our team won a gold medal at the 2021 iGEM awards. 
                             </Card.Text>
                             <h5>
                                 <Badge bg="language ms-1">HTML5</Badge>
