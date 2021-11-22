@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Accordion from 'react-bootstrap/Accordion';
 import MyPDF from '../../assets/Resume.PDF';
+import ListGroup from 'react-bootstrap/ListGroup';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../../styles/Resume.css';
 
@@ -10,36 +11,52 @@ function Resume() {
     return(
     <>
       <div className='main'>
-        <div className='d-flex justify-content-center pt-2'>
-          <h1>Resume</h1>
-        </div>
-          <div className='d-flex justify-content-center'>
+      <div class="container">
+        <div className="row">
+          <div className="col d-flex justify-content-center">
+            <h1>Resume</h1>
+          </div>
+          </div>
+          <div className='row'>
+            <div className='col-md-auto'>
             <p className='volunteer'>On this page, you have the option to download and view my resume. Also, there is a short list with a few skills I have gained through previous work experience that will transfer well into my new role. I have also added a short section about what I have learned while volunteering throughout my community over the years.</p>
           </div>
-            <div className='d-flex justify-content-center pb-2'>
-              <a href={MyPDF} download='Resume.PDF'>
-                <Button variant="outline-download" type="submit">
-                  Download Resume
-                  <FontAwesomeIcon icon="file-download" size='lg' fixedWidth/>
-                </Button>
-              </a>
-            </div>
-              <div className='d-flex justify-content-center flex-wrap'>
-                  <ul className='list'>
-                  <h2 className='text-center me-4'>Technical Skills:</h2>
-                    <li className='text-center me-4'>HTML/CSS/JavaScript</li>
-                    <li className='text-center me-4'>Mysql/Sequelize/MongoDB/Mongoose</li>
-                    <li className='text-center me-4'>jQuery/React.js/Express.js/Bootstrap</li>
-                    <li className='text-center me-4'>Node.js/Handlebars/Git/Heroku/JWT Auth</li>
-                  <h2 className='text-center me-4 pt-3'>Transferable Skills:</h2>
-                    <li className='text-center me-4'>Communication</li>
-                    <li className='text-center me-4'>Collaboration</li>
-                    <li className='text-center me-4'>Passionate</li>
-                    <li className='text-center me-4'>Organized</li>
-                    <li className='text-center me-4'>Attitude</li>
-                  </ul>
-              </div>
-                  <div className='d-flex justify-content-center py-5 px-5'>
+          </div>
+          <div className='row'>
+          <div className='col d-flex justify-content-center'>
+                <a href={MyPDF} download='Resume.PDF'>
+                  <Button variant="outline-download" type="submit">
+                    Download Resume
+                    <FontAwesomeIcon icon="file-download" size='lg' fixedWidth/>
+                  </Button>
+                </a>
+                </div>
+                </div>
+                <div className='row d-flex justify-content-between'>
+                  <div className='col-md-auto'>
+                  <h2 className='text-center'>Technical Skills:</h2>
+                <ListGroup variant="flush">
+                  <ListGroup.Item className='text-center'>HTML\CSS\JavaScript</ListGroup.Item>
+                  <ListGroup.Item className='text-center'>jQuery\React.js</ListGroup.Item>
+                  <ListGroup.Item className='text-center'>Express.js\Bootstrap</ListGroup.Item>
+                  <ListGroup.Item className='text-center'>Mysql\Sequelize</ListGroup.Item>
+                  <ListGroup.Item className='text-center'>MongoDB\Mongoose</ListGroup.Item>
+                  <ListGroup.Item className='text-center'>Node.js\Handlebars</ListGroup.Item>
+                  <ListGroup.Item className='text-center'>Git\Heroku\JWT Auth</ListGroup.Item>
+                </ListGroup>
+                </div>
+                <div className='col-md-auto'>
+                <h2 className='text-center'>Transferable Skills:</h2>
+                <ListGroup variant="flush">
+                  <ListGroup.Item className='text-center'>Communication\Collaboration</ListGroup.Item>
+                  <ListGroup.Item className='text-center'>Motivated\Problem-Solver</ListGroup.Item>
+                  <ListGroup.Item className='text-center'>Passionate\Organized</ListGroup.Item>
+                  <ListGroup.Item className='text-center'>Flexible\Independent</ListGroup.Item>
+                </ListGroup>
+                </div>
+                </div>
+                  <div className='row'>
+                    <div className='col pt-4'>
                     <Accordion>
                       <Accordion.Item eventKey="0"> 
                         <Accordion.Header><h2>Volunteer</h2></Accordion.Header>
@@ -49,14 +66,18 @@ function Resume() {
                       </Accordion.Item>
                     </Accordion>
                   </div>
-                    <div className='d-flex justify-content-end'>
+                  </div>
+                    <div className='row'>
+                      <div className='col d-flex justify-content-end'>
                       <Link to="/R-Portfolio">
-                        <Button className='about' variant='outline-five'>
+                        <Button variant='outline-five'>
                           About
                           <FontAwesomeIcon  icon="long-arrow-alt-right" size="lg" fixedWidth />
                         </Button>
                       </Link>
                     </div>
+                    </div>
+                  </div>
       </div>
     </>
     )
