@@ -3,7 +3,6 @@ import emailjs from "emailjs-com";
 import { Link } from "react-router-dom";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import ListGroup from 'react-bootstrap/ListGroup';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../../styles/contact.css";
 
