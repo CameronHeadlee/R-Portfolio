@@ -12,8 +12,13 @@ function Navigation() {
             <Navbar.Brand className="text-light fs-2 ps-2">Cameron Headlee</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
-                        <Nav.Link>
+                    <Nav.Link>
                             <Link to="/R-Portfolio">   
+                                <Button variant="outline-light">Home</Button>
+                            </Link>  
+                        </Nav.Link>
+                        <Nav.Link>
+                            <Link to="/About">   
                                 <Button variant="outline-light">About</Button>
                             </Link>  
                         </Nav.Link>
