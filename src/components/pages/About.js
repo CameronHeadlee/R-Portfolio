@@ -1,5 +1,8 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
+import Image from 'react-bootstrap/Image';
+import Img from '../../assets/images/Madriver.png';
+import Img2 from '../../assets/images/lacrosse.png';
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -34,6 +37,14 @@ function About() {
                                     </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
+                    </div>
+                </div>
+                <div className="row d-flex justify-content-around">
+                    <div className="col-md-auto">
+                        <Image className="picture" src ={Img} alt="Me jumping on a snowboard."/>
+                    </div>
+                    <div className="col-md-auto">
+                        <Image className="picture" src ={Img2} alt="Lacrosse goal celebration with team."/>
                     </div>
                 </div>
                 <div className="row d-flex justify-content-between">
