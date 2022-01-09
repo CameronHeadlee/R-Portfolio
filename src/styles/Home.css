@@ -1,0 +1,36 @@
+.background {
+  min-height: 100vh;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 5%;
+  margin: 10px 0px 0px 0px;
+}
+
+.intro {
+  color: #f1faee;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+li {
+  padding: 0px 0px 8px 0px;
+}
+
+.btn.btn-outline-six {
+  background-color: #f1faee;
+  color: #9a1aef;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 25px 0px 75px 0px;
+}
+
+.btn.btn-outline-six:hover {
+  background-color: #9a1aef;
+  color: #f1faee;
+  transform: rotate(360deg);
+  transition: 2s;
+}
