@@ -14,16 +14,6 @@ function Resume() {
         <div class="container">
           <div className="row">
             <div className="col d-flex justify-content-center">
-              <h1>Resume</h1>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-auto">
-              <p className="volunteer">On this page, you have the option to download and view my resume. Also, there is a short list with a few skills I have gained through previous work experience that will transfer well into my new role. I have also added a short section about what I have learned while volunteering throughout my community over the years.</p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col d-flex justify-content-center">
               <a href={MyPDF} download="Resume.PDF">
                 <Button variant="outline-download" type="submit">
                   Download Resume
@@ -36,18 +26,22 @@ function Resume() {
             <div className="col-md-auto">
               <h2 className="skill text-center pt-2">Technical Skills:</h2>
                 <ListGroup variant="flush">
-                  <ListGroup.Item className="text-center">HTML\CSS\JavaScript</ListGroup.Item>
-                  <ListGroup.Item className="text-center">jQuery\React.js</ListGroup.Item>
-                  <ListGroup.Item className="text-center">Express.js\Bootstrap</ListGroup.Item>
-                  <ListGroup.Item className="text-center">Mysql\Sequelize</ListGroup.Item>
-                  <ListGroup.Item className="text-center">MongoDB\Mongoose</ListGroup.Item>
-                  <ListGroup.Item className="text-center">Node.js\Handlebars</ListGroup.Item>
-                  <ListGroup.Item className="text-center">Git\Heroku\JWT Auth</ListGroup.Item>
+                  <ListGroup.Item className="text-center">HTML5\CSS3\JavaScript ES6</ListGroup.Item>
+                  <ListGroup.Item className="text-center">jQuery\React.js\Handlebars</ListGroup.Item>
+                  <ListGroup.Item className="text-center">Responsive Design\Bootstrap</ListGroup.Item>
+                  <ListGroup.Item className="text-center">Local Storage\Session Storage\indexedDB</ListGroup.Item>
+                  <ListGroup.Item className="text-center">API\JSON\AJAX</ListGroup.Item>
+                  <ListGroup.Item className="text-center">MongoDB\MySQL</ListGroup.Item>
+                  <ListGroup.Item className="text-center">Node.js\Express</ListGroup.Item>
+                  <ListGroup.Item className="text-center">User Auth\PWAs\MERN Stack</ListGroup.Item>
+                  <ListGroup.Item className="text-center">Git\Heroku\GitHub Pages</ListGroup.Item>
                 </ListGroup>
             </div>
             <div className="col-md-auto">
               <h2 className="skill text-center pt-2">Transferable Skills:</h2>
                 <ListGroup variant="flush">
+                <ListGroup.Item className="text-center">Management\Leadership</ListGroup.Item>
+                <ListGroup.Item className="text-center">Customer Service\Sales</ListGroup.Item>
                   <ListGroup.Item className="text-center">Communication\Collaboration</ListGroup.Item>
                   <ListGroup.Item className="text-center">Motivated\Problem-Solver</ListGroup.Item>
                   <ListGroup.Item className="text-center">Passionate\Organized</ListGroup.Item>
@@ -61,17 +55,25 @@ function Resume() {
                 <Accordion.Item eventKey="0"> 
                   <Accordion.Header><h2>Volunteer</h2></Accordion.Header>
                     <Accordion.Body className="body"> 
-                      It has always been a passion of mine to give back to others. Throughout my life I have volunteered time in many places. Whether it was volunteering at food banks, clothing pickups, Christmas drives, or special education classes. I have enjoyed every moment. It is very humbling to help someone that is less fortunate than myself because with every volunteer opportunity, the impact on my perspective for life has grown. The community I have served is always grateful for life and has taught me it is important to have a positive attitude and keep my head up, no matter the situation. 
+                    Community is important to me and I love giving back when possible. In middle school, I volunteered in a special education classroom, helping teach students and assisting teachers with projects. During high school, my service involved various programs, from Christmas toy drives, winter clothing drives, and food banks. 
                     </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
             </div>
           </div>
-          <div className="row">
-            <div className="col d-flex justify-content-end">
+          <div className="row d-flex justify-content-between">
+          <div className="col-md-auto">
+              <Link to="/Contact">
+                <Button variant="outline-ten">
+                  <FontAwesomeIcon  icon="long-arrow-alt-left" size="lg" fixedWidth />
+                  Back
+                </Button>
+              </Link>
+            </div>
+            <div className="col-md-auto">
               <Link to="/R-Portfolio">
                 <Button variant="outline-five">
-                  About
+                  Home
                   <FontAwesomeIcon  icon="long-arrow-alt-right" size="lg" fixedWidth />
                 </Button>
               </Link>
