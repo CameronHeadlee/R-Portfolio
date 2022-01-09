@@ -1,48 +1,73 @@
-.cell {
-    font-size: 30px;
-    font-weight: bold;
-    color: #f1faee;
+a:link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #9a1aef;
+}
+
+.link {
+  margin: 6px 0px 0px 0px;
 }
 
 .phone {
-    font-weight: bold;
-    font-size: 35px;
-    color: #f1faee;
-    text-decoration: underline #9a1aef;
-    text-decoration-style: dashed;
+  font-weight: bold;
+  font-size: 35px;
+  color: #f1faee;
 }
 
 .below {
-    color: #f1faee;
-    font-size: 25px;
-    font-weight: bold;
+  color: #f1faee;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 8px 0px 0px 0px;
+}
+
+.list-group-item.list-group-item {
+  font-size: 25px;
+  border: none;
+  text-decoration: #9a1aef underline 3px;
 }
 
 .btn.btn-outline-mail {
-    background-color: #f1faee;
-    color: #9a1aef;
-    font-size: 25px;
-    font-weight: bold;
-    margin: 10px 0px 70px 0px;
+  background-color: #f1faee;
+  color: #9a1aef;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0px 70px 0px;
 }
 
 .btn.btn-outline-mail:hover {
-    background-color: #9a1aef;
-    color: #f1faee;
+  background-color: #9a1aef;
+  color: #f1faee;
 }
 
+.btn.btn-outline-nine {
+  background-color: #f1faee;
+  color: #9a1aef;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0px 0px 0px;
+}
+
+.btn.btn-outline-nine:hover {
+  background-color: #9a1aef;
+  color: #f1faee;
+  transform: rotate(-360deg);
+  transition: 2s;
+}
 
 .btn.btn-outline-two {
-    background-color: #f1faee;
-    color: #9a1aef;
-    font-size: 25px;
-    font-weight: bold;
-    margin: 10px 0px 70px 0px;
+  background-color: #f1faee;
+  color: #9a1aef;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 70px 0px 70px 0px;
 }
 
 .btn.btn-outline-two:hover {
-    background-color: #9a1aef;
-    color: #f1faee;
-    transform: rotate(360deg);
-    transition: 2s;
+  background-color: #9a1aef;
+  color: #f1faee;
+  transform: rotate(360deg);
+  transition: 2s;
 }
