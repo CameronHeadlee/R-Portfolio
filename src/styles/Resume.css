@@ -22,8 +22,9 @@ h2 {
 .list-group-item.list-group-item {
   background-color: #480872;
   color: #f1faee;
-  font-size: 20px;
-  border-color: #9a1aef;
+  font-size: 25px;
+  text-decoration: #9a1aef underline 3px;
+  border: none;
 }
 
 .body {
