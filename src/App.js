@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 import Project from './components/Project';
 import Navigation from './components/Navigation';
 import  BottomNav  from './components/BottomNav';
+import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Portfolio from './components/pages/Portfolio';
@@ -37,6 +38,9 @@ function App() {
           <Navigation/>
         </Header>
         <Route exact path="/R-Portfolio">
+        <Home />
+        </Route>
+        <Route exact path="/About">
         <About />
         </Route>
         <Route exact path='/Portfolio'>
