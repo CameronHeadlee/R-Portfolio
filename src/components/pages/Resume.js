@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Accordion from "react-bootstrap/Accordion";
-import MyPDF from "../../assets/Resume.PDF";
+import MyPDF from "../../assets/fiverrResume.PDF";
 import ListGroup from "react-bootstrap/ListGroup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../../styles/Resume.css";
@@ -14,7 +14,7 @@ function Resume() {
         <div class="container">
           <div className="row">
             <div className="col d-flex justify-content-center">
-              <a href={MyPDF} download="Resume.PDF">
+              <a href={MyPDF} download="fiverrResume.PDF">
                 <Button variant="outline-download" type="submit">
                   Download Resume
                   <FontAwesomeIcon icon="file-download" size="lg" fixedWidth/>
