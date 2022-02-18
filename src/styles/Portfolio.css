@@ -7,14 +7,14 @@
 
 .btn.btn-outline-eight {
   background-color: #f1faee;
-  color: #9a1aef;
+  color: #006cd0;
   font-size: 25px;
   font-weight: bold;
   margin: 70px 0px 0px 0px;
 }
 
 .btn.btn-outline-eight:hover {
-  background-color: #9a1aef;
+  background-color: #006cd0;
   color: #f1faee;
   transform: rotate(-360deg);
   transition: 2s;
@@ -22,14 +22,14 @@
 
 .btn.btn-outline-three {
   background-color: #f1faee;
-  color: #9a1aef;
+  color: #006cd0;
   font-size: 25px;
   font-weight: bold;
   margin: 70px 0px 70px 0px;
 }
 
 .btn.btn-outline-three:hover {
-  background-color: #9a1aef;
+  background-color: #006cd0;
   color: #f1faee;
   transform: rotate(360deg);
   transition: 2s;
