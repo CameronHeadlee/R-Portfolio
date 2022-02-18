@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/R-Portfolio/static/css/main.81f0b4cf.chunk.css",
-    "main.js": "/R-Portfolio/static/js/main.36759a4e.chunk.js",
-    "main.js.map": "/R-Portfolio/static/js/main.36759a4e.chunk.js.map",
+    "main.css": "/R-Portfolio/static/css/main.61032c03.chunk.css",
+    "main.js": "/R-Portfolio/static/js/main.123fa3b2.chunk.js",
+    "main.js.map": "/R-Portfolio/static/js/main.123fa3b2.chunk.js.map",
     "runtime-main.js": "/R-Portfolio/static/js/runtime-main.ea933329.js",
     "runtime-main.js.map": "/R-Portfolio/static/js/runtime-main.ea933329.js.map",
     "static/css/2.f2512455.chunk.css": "/R-Portfolio/static/css/2.f2512455.chunk.css",
-    "static/js/2.02546872.chunk.js": "/R-Portfolio/static/js/2.02546872.chunk.js",
-    "static/js/2.02546872.chunk.js.map": "/R-Portfolio/static/js/2.02546872.chunk.js.map",
+    "static/js/2.14c12079.chunk.js": "/R-Portfolio/static/js/2.14c12079.chunk.js",
+    "static/js/2.14c12079.chunk.js.map": "/R-Portfolio/static/js/2.14c12079.chunk.js.map",
     "index.html": "/R-Portfolio/index.html",
     "static/css/2.f2512455.chunk.css.map": "/R-Portfolio/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.81f0b4cf.chunk.css.map": "/R-Portfolio/static/css/main.81f0b4cf.chunk.css.map",
-    "static/js/2.02546872.chunk.js.LICENSE.txt": "/R-Portfolio/static/js/2.02546872.chunk.js.LICENSE.txt",
+    "static/css/main.61032c03.chunk.css.map": "/R-Portfolio/static/css/main.61032c03.chunk.css.map",
+    "static/js/2.14c12079.chunk.js.LICENSE.txt": "/R-Portfolio/static/js/2.14c12079.chunk.js.LICENSE.txt",
+    "static/media/Certificate.1c499537.png": "/R-Portfolio/static/media/Certificate.1c499537.png",
     "static/media/Madriver.46e0e225.png": "/R-Portfolio/static/media/Madriver.46e0e225.png",
+    "static/media/Resume_2.74af2d37.PDF": "/R-Portfolio/static/media/Resume_2.74af2d37.PDF",
     "static/media/cameron-headlee.c5886a44.png": "/R-Portfolio/static/media/cameron-headlee.c5886a44.png",
     "static/media/crop.cc76dfb4.png": "/R-Portfolio/static/media/crop.cc76dfb4.png",
-    "static/media/fiverrResume.0aa968aa.PDF": "/R-Portfolio/static/media/fiverrResume.0aa968aa.PDF",
     "static/media/join_me.b7f4c640.png": "/R-Portfolio/static/media/join_me.b7f4c640.png",
     "static/media/lacrosse.2e5c22df.png": "/R-Portfolio/static/media/lacrosse.2e5c22df.png",
     "static/media/note_home.1203783e.png": "/R-Portfolio/static/media/note_home.1203783e.png",
@@ -25,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.ea933329.js",
     "static/css/2.f2512455.chunk.css",
-    "static/js/2.02546872.chunk.js",
-    "static/css/main.81f0b4cf.chunk.css",
-    "static/js/main.36759a4e.chunk.js"
+    "static/js/2.14c12079.chunk.js",
+    "static/css/main.61032c03.chunk.css",
+    "static/js/main.123fa3b2.chunk.js"
   ]
 }
