@@ -1,3 +1,24 @@
 .nav {
-    background-color: #9a1aef;
+  background-color: #006cd0;
+}
+
+.nav-name {
+  color: #f1faee;
+}
+
+.nav-name:hover {
+  color: #f1faee;
+}
+
+.btn.btn-outline-nav {
+  color: #f1faee;
+  border: 2px solid #f1faee;
+  border-radius: 25%;
+}
+
+.btn.btn-outline-nav:hover {
+  background-color: #42493f;
+  color: #f1faee;
+  font-weight: bold;
+  border: none;
 }
