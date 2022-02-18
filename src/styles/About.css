@@ -1,5 +1,5 @@
 .main {
-  background-color: #480872;
+  background-color: #42493f;
   min-height: 100vh;
 }
 
@@ -11,16 +11,16 @@
 .me {
   font-size: 25px;
   color: #f1faee;
-  background-color: #9a1aef;
+  background-color: #006cd0;
 }
 
 .accordion button {
-  background-color: #9a1aef;
+  background-color: #006cd0;
 }
 
 .accordion button:not(.collapsed) {
-  background-color: #9a1aef;
-  color: black;
+  background-color: #006cd0;
+  color: #42493f;
   box-shadow: none;
 }
 
@@ -38,24 +38,27 @@
 }
 
 .second {
-  padding: 50px 0px 0px 0px;
+  padding: 50px 0px;
 }
 
 .picture {
+  width: 100%;
+  height: auto;
   border-radius: 5%;
-  margin: 12px 0px 0px 0px;
+  margin: 5px 0px;
+  padding: 0px 4px;
 }
 
 .btn.btn-outline-seven {
   background-color: #f1faee;
-  color: #9a1aef;
+  color: #006cd0;
   font-size: 25px;
   font-weight: bold;
   margin: 75px 0px 0px 0px;
 }
 
 .btn.btn-outline-seven:hover {
-  background-color: #9a1aef;
+  background-color: #006cd0;
   color: #f1faee;
   transform: rotate(-360deg);
   transition: 2s;
@@ -63,14 +66,14 @@
 
 .btn.btn-outline-one {
   background-color: #f1faee;
-  color: #9a1aef;
+  color: #006cd0;
   font-size: 25px;
   font-weight: bold;
   margin: 75px 0px 75px 0px;
 }
 
 .btn.btn-outline-one:hover {
-  background-color: #9a1aef;
+  background-color: #006cd0;
   color: #f1faee;
   transform: rotate(360deg);
   transition: 2s;
