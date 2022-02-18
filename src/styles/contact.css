@@ -8,7 +8,7 @@
 .method {
   font-size: 30px;
   color: #f1faee;
-  text-decoration: #9a1aef underline 3px solid;
+  text-decoration: #006cd0 underline 3px solid;
 }
 
 a:link {
@@ -16,7 +16,7 @@ a:link {
 }
 
 .link:hover {
-  color: #9a1aef;
+  color: #006cd0;
 }
 
 .link {
@@ -39,27 +39,27 @@ a:link {
 
 .btn.btn-outline-mail {
   background-color: #f1faee;
-  color: #9a1aef;
+  color: #006cd0;
   font-size: 25px;
-  font-weight: bold;
   margin: 10px 0px 70px 0px;
 }
 
 .btn.btn-outline-mail:hover {
-  background-color: #9a1aef;
+  background-color: #006cd0;
   color: #f1faee;
+  font-weight: bold;
 }
 
 .btn.btn-outline-nine {
   background-color: #f1faee;
-  color: #9a1aef;
+  color: #006cd0;
   font-size: 25px;
   font-weight: bold;
   margin: 70px 0px 0px 0px;
 }
 
 .btn.btn-outline-nine:hover {
-  background-color: #9a1aef;
+  background-color: #006cd0;
   color: #f1faee;
   transform: rotate(-360deg);
   transition: 2s;
@@ -67,14 +67,14 @@ a:link {
 
 .btn.btn-outline-two {
   background-color: #f1faee;
-  color: #9a1aef;
+  color: #006cd0;
   font-size: 25px;
   font-weight: bold;
   margin: 70px 0px 70px 0px;
 }
 
 .btn.btn-outline-two:hover {
-  background-color: #9a1aef;
+  background-color: #006cd0;
   color: #f1faee;
   transform: rotate(360deg);
   transition: 2s;
