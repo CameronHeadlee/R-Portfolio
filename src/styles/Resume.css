@@ -16,30 +16,29 @@ h2 {
 }
 
 .skill {
-  text-decoration: underline 5px #9a1aef;
+  text-decoration: underline 5px #006cd0;
 }
 
 .list-group-item.list-group-item {
-  background-color: #480872;
+  background-color: #42493f;
   color: #f1faee;
   font-size: 25px;
-  text-decoration: #9a1aef underline 3px;
   border: none;
 }
 
 .body {
-  background-color: #9a1aef;
+  background-color: #006cd0;
   font-size: 25px;
   color: #f1faee;
 }
 
 .accordion button {
-  background-color: #9a1aef;
+  background-color: #006cd0;
 }
 
 .accordion button:not(.collapsed) {
-  background-color: #9a1aef;
-  color: black;
+  background-color: #006cd0;
+  color: #42493f;
   box-shadow: none;
 }
 
@@ -57,15 +56,15 @@ h2 {
 }
 
 .btn.btn-outline-download {
-  background-color: #9a1aef;
-  color: #f1faee;
+  background-color: #f1faee;
+  color: #006cd0;
   font-size: 25px;
   margin: 8px 0px 0px 0px;
 }
 
 .btn.btn-outline-download:hover {
-  background-color: #f1faee;
-  color: #9a1aef;
+  background-color: #006cd0;
+  color: #f1faee;
   font-weight: bold;
 }
 
@@ -75,14 +74,14 @@ h2 {
 
 .btn.btn-outline-ten {
   background-color: #f1faee;
-  color: #9a1aef;
+  color: #006cd0;
   font-size: 25px;
   font-weight: bold;
   margin: 60px 0px 0px 0px;
 }
 
 .btn.btn-outline-ten:hover {
-  background-color: #9a1aef;
+  background-color: #006cd0;
   color: #f1faee;
   transform: rotate(-360deg);
   transition: 2s;
@@ -90,14 +89,14 @@ h2 {
 
 .btn.btn-outline-five {
   background-color: #f1faee;
-  color: #9a1aef;
+  color: #006cd0;
   font-size: 25px;
   font-weight: bold;
   margin: 60px 0px 55px 0px;
 }
 
 .btn.btn-outline-five:hover {
-  background-color: #9a1aef;
+  background-color: #006cd0;
   color: #f1faee;
   transform: rotate(360deg);
   transition: 2s;
