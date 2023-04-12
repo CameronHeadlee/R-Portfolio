@@ -36,8 +36,8 @@ function About() {
                         <h2>Favorite Quote</h2>
                         </Accordion.Header>
                         <Accordion.Body className="me">
-                            "No man ever steps in the same river twice, for it"s not the same river and he"s not the same man." 
-                            - Heraclitus
+                            "You can't expect unique results without unique relationships" 
+                            - Mike Tomlin
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
