@@ -88,7 +88,7 @@ function Project() {
                 </h5>   
             </Card.Body>
             <Card.Footer>
-                <Button variant="outline-view" href="https://note-appc.herokuapp.com/" target="_blank" className="card-link">View App!
+                <Button variant="outline-view" href="https://notetakerone.herokuapp.com/" target="_blank" className="card-link">View App!
                     <FontAwesomeIcon className="pt-1" icon="eye" size="lg" fixedWidth />
                 </Button>
             </Card.Footer>
